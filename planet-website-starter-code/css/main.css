@@ -69,7 +69,6 @@ header {
 @media only screen and (min-width: 40em) {
     
     header {
-        display: block;
         text-align: left;
         overflow: hidden;
     }
@@ -79,7 +78,7 @@ header {
     margin: 0;
 }
  
-}
+
 
 
 
