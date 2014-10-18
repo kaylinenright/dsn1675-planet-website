@@ -8,13 +8,42 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font: normal 100%/1.5 sans-serif;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
 }
+
+ @media only screen and (min-width: 60em) {
+.copy {
+    float: left;
+}
+
+.nav-footer {
+    float: right;
+}
+
+     .section-dark {
+         padding: 0;
+         margin: 0;
+     }
+ 
+}
+
+
+ @media only screen and (min-width: 90em) {
+ .nav { 
+     text-align: right;
+ }
+.nav-footer {
+         text-align: right;
+}
+     .copy {
+         float: left;
+     }
+ 
+ 
+ 
+ }
+ 
+ @media only screen and (min-width: 120em) {
+ }
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -25,100 +54,84 @@ body {
   padding: 0;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
 }
 
- .nav {
-     list-style-type: none;
-    background-color: #ccc;
-    padding: 0;
-     margin: 0;
-   
+.masthead {
+  overflow: hidden;
 }
-
-.nav a{
-    display: block;
-    text-decoration: none;
-    color: #0074D9;
-   
-}
-
-header {
-    background-color: #ccc;
-    margin: 0;
-    padding: 0;
-}
-
 
 .title {
-     text-align: center;
-    margin: 0;
-    
+  text-align: center;
 }
 
-@media only screen and (min-width: 20em) {
-    header{
-        text-align: center;
-    }
-    
-    .nav li {
-        display: inline-block;
-    }
+.nav {
+  padding: 0;
 }
 
-@media only screen and (min-width: 40em) {
-    
-    header {
-        text-align: left;
-        overflow: hidden;
-    }
-        
-.title {
-    float: left;
-    margin: 0;
-}
- 
+.nav li {
+  display: block;
 }
 
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
 
-.grey {
-    background-color: #e2e2e2;
+  color: #0074D9;
+  text-decoration: none;
+}
+
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+}
+
+.intro {
+  text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .title,
+  .nav {
+    text-align: left;
+  }
+.nav-footer {
     text-align: center;
 }
 
-    .foot {
-        background-color: #ccc;
+    .copy {
+        text-align: center;
     }
-
-
-
-
-.head {
     
-    overflow: hidden;
-}
-
-
-
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-.light-grey {
-    background-color: #cfcfcf;
     
-}
+    
+    }
+    
 
 
-.light {
-    background-color: grey;
-}
-
-.foot {
 
 
 
