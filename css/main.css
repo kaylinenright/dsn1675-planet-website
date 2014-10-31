@@ -34,6 +34,75 @@ body {
     padding: 0;
 }
 
+
+ input + label {
+    display: inline-block;
+}
+
+
+
+ label {
+        display: block;
+    }
+
+.form {
+    text-align: center;
+    
+}
+
+
+fieldset {
+    border: none;
+    text-align: left;
+    padding: 0;
+   
+}
+
+
+
+h3 {
+    line-height: 2em;
+    margin: 0;
+}
+
+.field {
+    width: 100%;
+}
+
+.field-explain {
+    height: 22em; 
+    border: none;
+    
+}
+
+
+.radio {
+    white-space: nowrap;
+}
+
+button {
+    font-size: 1em;
+    text-align: center;
+    padding: none;
+}
+
+.button {
+    text-align: center;
+    
+}
+
+
+   .tag-line {
+        text-align: center;
+       margin: 0;
+    }
+
+
+
+
+
+
+
 a:link,
 a:active {} .skip-links {
     margin: 0;
@@ -119,7 +188,7 @@ body {
 }
 
 @media only screen and (min-width: 38em) {
-    .title,
+    
     .nav {
         text-align: left;
     }
@@ -142,6 +211,14 @@ body {
         padding: 0;
         margin: 0;
     }
+    
+    form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 35em;
+    }
+    
+    
 }
 
 @media only screen and (min-width: 90em) {
@@ -161,3 +238,15 @@ body {
 *: after {
     box-sizing:inherit;
 }
+
+
+
+
+
+
+
+
+
+
+
+
