@@ -1,5 +1,10 @@
 html {
-  font: normal 100%/1.5 Ariel,sans-serif;
+  font: normal 100%/1.5 "Merriweather",serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-family{
+    font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -22,6 +27,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+    color: 
 }
 
 h2, .peta {

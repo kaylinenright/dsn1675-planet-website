@@ -27,6 +27,21 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+main {
+      background-color: #fff9f5;
 }
 
 body {
@@ -67,6 +82,11 @@ h3 {
 
 .field {
     width: 100%;
+    background-color: #fff9f5;
+}
+
+.field:focus {
+    outline: 3px solid #c3a0ff;
 }
 
 .field-explain {
@@ -84,6 +104,10 @@ button {
     font-size: 1em;
     text-align: center;
     padding: none;
+    background-color: #ffc3a0;
+    border-color: #fff9f5;
+    color: #fff;
+    
 }
 
 .button {
@@ -96,11 +120,6 @@ button {
         text-align: center;
        margin: 0;
     }
-
-
-
-
-
 
 
 a:link,
@@ -158,20 +177,33 @@ body {
 .nav a:link,
 .nav a:visited {
     display: block;
-    color: #0074D9;
+    color: #fff;
     text-decoration: none;
 }
 
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current, 
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #c3a0ff;
+    color: #fff;
+}
+
+
+
 .section-dark {
-    background-color: #ccc;
+    background-color: #ffcfb3;
 }
 
 .section-mid {
-    background-color: #e2e2e2;
+    background-color: #ffe1cf;
 }
 
 .section {
-    background-color: #efefef;
+    background-color:#ffe7d9;
 }
 
 .intro {
@@ -220,32 +252,6 @@ body {
     
     
 }
-
-@media only screen and (min-width: 90em) {
-    .nav {
-        text-align: right;
-    }
-    .nav-footer {
-        text-align: right;
-    }
-    .copy {
-        float: left;
-    }
-}
-
-@media only screen and (min-width: 120em) {} *,
-*: before,
-*: after {
-    box-sizing:inherit;
-}
-
-
-
-
-
-
-
-
 
 
 
